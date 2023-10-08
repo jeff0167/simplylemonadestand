@@ -25,9 +25,9 @@ function App() {
                 </div>
                 <div class="hidden sm:ml-6 sm:block">
                   <div class="flex space-x-4">
-                    <button class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" onClick={()=> navigate("")}>Product Page</button>
-                    <button class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" onClick={()=> navigate("/cart")}>Cart</button>
-                    <button class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" onClick={()=> navigate("/checkout")}>Checkout</button>
+                    <button class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" onClick={()=> navigate("simplylemonadestand")}>Product Page</button>
+                    <button class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" onClick={()=> navigate("simplylemonadestand/cart")}>Cart</button>
+                    <button class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" onClick={()=> navigate("simplylemonadestand/checkout")}>Checkout</button>
                   </div>
                 </div>
               </div>
