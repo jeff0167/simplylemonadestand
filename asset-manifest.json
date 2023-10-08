@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/simplylemonadestand/static/css/main.29f9191e.css",
-    "main.js": "/simplylemonadestand/static/js/main.216c06cb.js",
+    "main.js": "/simplylemonadestand/static/js/main.be93a3fb.js",
     "static/media/Plum.jpg": "/simplylemonadestand/static/media/Plum.346bf5a853cd209b09ff.jpg",
     "static/media/Blackberries.jpg": "/simplylemonadestand/static/media/Blackberries.22791fb24668e97ee40f.jpg",
     "static/media/Elderberries.jpg": "/simplylemonadestand/static/media/Elderberries.8d71778c99fb8ded3018.jpg",
@@ -20,10 +20,10 @@
     "static/media/RedRibes.jpg": "/simplylemonadestand/static/media/RedRibes.e9408392aa4f3ede721b.jpg",
     "index.html": "/simplylemonadestand/index.html",
     "main.29f9191e.css.map": "/simplylemonadestand/static/css/main.29f9191e.css.map",
-    "main.216c06cb.js.map": "/simplylemonadestand/static/js/main.216c06cb.js.map"
+    "main.be93a3fb.js.map": "/simplylemonadestand/static/js/main.be93a3fb.js.map"
   },
   "entrypoints": [
     "static/css/main.29f9191e.css",
-    "static/js/main.216c06cb.js"
+    "static/js/main.be93a3fb.js"
   ]
 }
