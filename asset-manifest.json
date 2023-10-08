@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/simplylemonadestand/static/css/main.29f9191e.css",
+    "main.js": "/simplylemonadestand/static/js/main.48d41744.js",
+    "static/media/Plum.jpg": "/simplylemonadestand/static/media/Plum.346bf5a853cd209b09ff.jpg",
+    "static/media/Blackberries.jpg": "/simplylemonadestand/static/media/Blackberries.22791fb24668e97ee40f.jpg",
+    "static/media/Elderberries.jpg": "/simplylemonadestand/static/media/Elderberries.8d71778c99fb8ded3018.jpg",
+    "static/media/Greengage.jpg": "/simplylemonadestand/static/media/Greengage.0075225f18d1f6836a27.jpg",
+    "static/media/Walnuts.jpg": "/simplylemonadestand/static/media/Walnuts.988eb54871413f898ac7.jpg",
+    "static/media/Peach.jpg": "/simplylemonadestand/static/media/Peach.e8ca921a98c5f01214b0.jpg",
+    "static/media/Strawberries.jpg": "/simplylemonadestand/static/media/Strawberries.ee91756175799b88bba0.jpg",
+    "static/media/Lemons.jpg": "/simplylemonadestand/static/media/Lemons.96a04ff119c8953cf640.jpg",
+    "static/media/Raspberry.jpg": "/simplylemonadestand/static/media/Raspberry.18952df6a671c2e35650.jpg",
+    "static/media/Chestnut.jpg": "/simplylemonadestand/static/media/Chestnut.530cf6bd95a9813bfb55.jpg",
+    "static/media/SomeRedCherry.jpg": "/simplylemonadestand/static/media/SomeRedCherry.412cc146c0bbeaf8e7e6.jpg",
+    "static/media/Grapes.jpg": "/simplylemonadestand/static/media/Grapes.993c89b2d3cffaf966cf.jpg",
+    "static/media/Fig.jpg": "/simplylemonadestand/static/media/Fig.e5c76c320d7aa1fb4115.jpg",
+    "static/media/Bilberries.jpg": "/simplylemonadestand/static/media/Bilberries.ab0508c31aff16b4f961.jpg",
+    "static/media/Orange.jpg": "/simplylemonadestand/static/media/Orange.121cfa83d52ad03e1b72.jpg",
+    "static/media/RedRibes.jpg": "/simplylemonadestand/static/media/RedRibes.e9408392aa4f3ede721b.jpg",
+    "index.html": "/simplylemonadestand/index.html",
+    "main.29f9191e.css.map": "/simplylemonadestand/static/css/main.29f9191e.css.map",
+    "main.48d41744.js.map": "/simplylemonadestand/static/js/main.48d41744.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29f9191e.css",
+    "static/js/main.48d41744.js"
+  ]
+}
