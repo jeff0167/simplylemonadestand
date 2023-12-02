@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { createReceipt } from "../actions";
 
-const receiptSlice = createSlice({
+const receiptSlice = createSlice({ // what is a slice now? it contains a reducer, but is more than a reducer
     name: "receipt",
     initialState: [],
     reducers: {

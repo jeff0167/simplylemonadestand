@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { createReceipt } from "../actions";
 
-const cartSlice = createSlice({
+const cartSlice = createSlice({  // creates reducer AND action creaters
     name: "cart",
     initialState: [],
     reducers: {
@@ -20,5 +20,5 @@ const cartSlice = createSlice({
       }
 })
 
-export const { addProduct, removeProduct } = cartSlice.actions;
-export const cartReducer = cartSlice.reducer;
+export const { addProduct, removeProduct } = cartSlice.actions; // these are action creaters 
+export const cartReducer = cartSlice.reducer; // the slice has a reducer which we export, I guess

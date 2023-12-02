@@ -10,4 +10,5 @@ export default class product{
       this.name = name;
       this.price = price;
     }
+
   }
