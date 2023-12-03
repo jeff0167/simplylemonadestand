@@ -1,9 +1,8 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Navigate, useNavigate } from 'react-router-dom';
 import ProductPage from './pages/ProductPage'; 
 import CartPage from './pages/CartPage';
 import CheckoutPage from './pages/CheckoutPage';
-import { useNavigate } from "react-router-dom";
 import { GiCutLemon } from "react-icons/gi";
 
 function App() {
@@ -24,22 +23,24 @@ function App() {
                   <GiCutLemon className='lemon h-8 w-auto'></GiCutLemon>
                 </div>
                 <div class="hidden sm:ml-6 sm:block">
-                  <div class="flex space-x-4">
-                    <button class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" onClick={()=> navigate("simplylemonadestand")}>Product Page</button>
-                    <button class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" onClick={()=> navigate("simplylemonadestand/cart")}>Cart</button>
-                    <button class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" onClick={()=> navigate("simplylemonadestand/checkout")}>Checkout</button>
-                  </div>
+                <div className="flex space-x-4">
+                  <button className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" onClick={()=> navigate("products")}>Product Page</button>
+                  <button className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" onClick={()=> navigate("/cart")}>Cart</button>
+                  <button className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" onClick={()=> navigate("/checkout")}>Checkout</button>
+                </div>
                 </div>
               </div>
             </div>
           </div>
         </nav>
         <header className="App-header">
-          <Routes>
-            <Route path="simplylemonadestand/" element={<ProductPage></ProductPage>}></Route>
-            <Route path="simplylemonadestand/cart" element={<CartPage></CartPage>}></Route>
-            <Route path="simplylemonadestand/checkout" element={<CheckoutPage></CheckoutPage>}></Route>
-          </Routes> 
+        <Routes>
+          <Route path='/' element={<Navigate to="products" />} />
+          <Route path="/products" element={<ProductPage></ProductPage>}></Route>
+          <Route path="/cart" element={<CartPage></CartPage>}></Route>
+          <Route path="/checkout" element={<CheckoutPage></CheckoutPage>}></Route>
+          <Route path='*' element={<Navigate to="products" />} />
+        </Routes>
       </header>
     </div>
   );
