@@ -47,13 +47,13 @@ function CartPage() {
         <div className="mb-3 flex gap-3">
           <Popover open={openPopover} placement="top-end">
           <PopoverHandler>
-            <Button></Button>
+            <Button> </Button>
           </PopoverHandler>
           <PopoverContent>
-          <div class="px-3 py-2 bg-gray-100 border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-gray-700">
-            <h3 class="font-semibold text-gray-900 dark:text-white">Payment</h3>
+          <div className="px-3 py-2 bg-gray-100 border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-gray-700">
+            <h3 className="font-semibold text-gray-900 dark:text-white">Payment</h3>
           </div>
-          <div class="px-3 py-2">
+          <div className="px-3 py-2">
             <p>Purchase have been completed</p>
           </div>
           </PopoverContent>

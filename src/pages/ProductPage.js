@@ -27,7 +27,6 @@ function ProductPage() {
 
   useEffect(() => {
     getDrinks();
-    console.log(getDrinks());
   }, []);
 
   const hasInCart = (drinkId) => {
@@ -82,8 +81,8 @@ function ProductPage() {
     dispatch(removeProduct(val));   // think it's action creater when you create it and and action/action object when you use it and dispatch it
   };
 
-  let content = drinks?.map((drink) => {
-    if (exist(drink.id)) return show(drink);
+  let content = drinks?.map((drink, id) => {
+    if (exist(drink.id)) return show(drink, id);
   });
 
   function show(drink, id) {

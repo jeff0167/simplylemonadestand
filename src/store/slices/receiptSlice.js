@@ -5,7 +5,6 @@ const receiptSlice = createSlice({ // what is a slice now? it contains a reducer
     name: "receipt",
     initialState: [],
     reducers: {
-    
     },
     extraReducers(builder) {
         builder.addCase(createReceipt, (state, action) => {
