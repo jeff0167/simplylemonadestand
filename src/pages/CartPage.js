@@ -1,5 +1,5 @@
 import '../App.css';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ProductList from '../components/product_list';
 import { Popover, PopoverHandler, PopoverContent, Button } from "@material-tailwind/react";
 import { useDispatch, useSelector } from "react-redux";

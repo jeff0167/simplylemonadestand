@@ -1,18 +1,16 @@
 import "../App.css";
-import React, { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 import grape from "../images/Grapes.jpg";
 import products from "../data/productListData";
 import { useDispatch, useSelector } from "react-redux";
 import { addProduct, removeProduct } from "../store";
 
-// I get data from an api, and on top of that I have local data matching the id
 const url = "https://www.fruitmap.org/api/trees";
 
 function ProductPage() {
-  // functional component
   const dispatch = useDispatch();
+ 
   const cart = useSelector((state) => {
     return state.cart;
   });
@@ -21,7 +19,6 @@ function ProductPage() {
 
   const getDrinks = async () => {
     const response = await axios.get(url);
-    //console.log(response.data);
     setDrinks(response.data);
   };
 
